@@ -1,3 +1,6 @@
+// Set Template
+const swiper = new Swiper(".swiper", {});
+
 /*** Variables ***/
 // API Key
 const API_KEY = '5mUBZNSPHT1CDqipWwfRMAlWRgwim6gr';
@@ -23,15 +26,14 @@ inputField.addEventListener('keyup', event => {
       console.log(gifs.data);
       
       // Get container for data
-      const videoContainer = document.querySelector('.swiper');
-      
+      const videoContainer = document.querySelector('.swiper-wrapper');      
       // Loop through the array of data
       gifs.data.forEach( gif => {
         
           // template 
           const template  = `
           <div class="swiper-slide">
-            <video src="${gif.images.original.mp4}"></video>
+          <video src="${gif.images.original.mp4}" autoplay loop></video>
           </div>
           `;
         
