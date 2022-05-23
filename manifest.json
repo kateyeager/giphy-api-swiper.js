@@ -2,7 +2,7 @@
 {
     "name" : "My Giphy API Project",
     "short_name" : "Giphy API", 
-    "description": "Katie's Web 3 Giphy API Project",
+    "description": "Katie's Web Design 3 Giphy API Project",
     "start_url": "/",
     "display": "fullscreen", 
     "background_color": "#ffffff",

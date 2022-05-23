@@ -1,11 +1,15 @@
 body {
   font-family: "Open Sans", sans-serif;
+  /* background-color: peachpuff; */
+  background-color: black;
 }
 
 input {
   font-size: 4em;
   width: 100%;
   text-align: center;
+border-radius: 50px;
+margin-bottom: 10px;
 }
 
 /* Swiper Styling */
